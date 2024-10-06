@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>timConf</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <!-- <header> -->
+    <!-- <div class="wrapper"> -->
+    <!-- <nav class="nav-principale">
+                    
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html">Forfaits</a></li>
+                        <li><a href="index.html">Évenements</a></li>
+                        <li><a href="index.html">Contacts</a></li>
+                        <li class="hotspot">
+                            <a href="conferencier.html">Conférence</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> -->
+
+    <header class="header" data-component="Header" data-scroll-limit="0.05" data-auto-hide="true">
+        <div class="wrapper">
+            <a href="index.html" class="header__brand">timConf</a>
+            <nav class="nav nav-primary">
+                <ul class="nav__menu">
+                    <li><a href="" class="nav-primary__item">Accueil</a></li>
+                    <li><a href="" class="nav-primary__item">Forfaits</a></li>
+                    <li><a href="" class="nav-primary__item">Évènements</a></li>
+                    <li><a href="" class="nav-primary__item">Contact</a></li>
+                </ul>
+                <a href="" class="nav-primary__item hotspot">Conférence</a> <!-- Bouton avec style distinct -->
+            </nav>
+            <button class="header__toggle js-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <body data-component="Scrolly">
+
+        <section class="hero">
+            <article>
+                <h1>Illuminez-vous!</h1>
+                <h5>12 mars 2024</h5>
+                <p>
+                    Découvrez le monde magique des projections lumineuses
+                    présenté par un pillié du spectacle.
+                </p>
+                <button class="hotspot">En savoir plus</button>
+            </article>
+            <img src="assets/images/hero.jpg" alt="hero" />
+        </section>
+        <section class="partenaires">
+            <img src="assets/images/partenaire_1.svg" alt="" />
+            <img src="assets/images/partenaire_2.svg" alt="" />
+            <img src="assets/images/partenaire_3.svg" alt="" />
+
+            <img src="assets/images/partenaire_5.svg" alt="" />
+            <img src="assets/images/partenaire_6.svg" alt="" />
+            <img src="assets/images/partenaire_7.svg" alt="" />
+        </section>
+        <section class="forfaits">
+            <h2>Nos Forfaits</h2>
+            <p>
+                Les différents forfaits vous offriront un parcours adapté à vos
+                envies et vos préférences.
+            </p>
+            <article>
+                <div class="wrapper grid">
+                    <div class="card">
+                        <img src="assets/images/forfait.png" alt="" />
+                        <div class="texte">
+                            <h3>Forfait Découverte</h3>
+                            <p>
+                                Offre au participant d’assister à 3 conférences dans
+                                le mois.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/forfait.png" alt="" />
+                        <div class="texte">
+                            <h3>Forfaits Jeunesse</h3>
+                            <p>
+                                Attiser la curiosité des enfants en participant à
+                                des conférences et activés avec vos enfants.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/forfait.png" alt="" />
+                        <div class="texte">
+                            <h3>Forfait Immersif</h3>
+                            <p>
+                                Plonger dans le monde des conférenciers qui vous
+                                montreront leur métier.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/forfait.png" alt="" />
+                        <div class="texte">
+                            <h3>Forfait Expérience</h3>
+                            <p>
+                                Vous permet d’assister les différents ateliers avec
+                                des invités hors-norme.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/forfait.png" alt="" />
+                        <div class="texte">
+                            <h3>Forfait Expérience+</h3>
+                            <p>
+                                Vous offre les avantage du forfait expérience et
+                                vous offre en plus la chance de participer à des
+                                spectacle.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/forfait.png" alt="" />
+                        <div class="texte">
+                            <h3>Forfait V.I.P</h3>
+                            <p>
+                                Vous permet d’assister aux conférences aux banc VIP
+                                avec lumières LED et vous offre la possibilité
+                                d’assister à des soirées et des gala.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="conferencier">
+            <div class="wrapper">
+                <h2>Nos Conférenciers</h2>
+
+                <div class="section__conferencier">
+                    <article data-scrolly="scaleX">
+                        <a href="conferencier.html">
+                            <img src="assets/images/conferencier_1.jpg" alt="conferencier1" />
+                            <div class="hidden">
+                                <h4>Gabriel Lahaie</h4>
+                                <p>Souffleur de verre</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article data-scrolly="scaleUp">
+                        <a href="conferencier.html">
+                            <img src="assets/images/conferencier_2.jpg" alt="conferencier2" />
+                            <div class="hidden">
+                                <h4>Matt Hébert</h4>
+                                <p>Scénariste</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article data-scrolly="scaleX">
+                        <a href="conferencier.html">
+                            <img src="assets/images/conferencier_3.jpg" alt="conferencier3" />
+                            <div class="hidden">
+                                <h4>Derek Philip</h4>
+                                <p>Expert en effets spéciaux</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article data-scrolly="scaleUp">
+                        <a href="conferencier.html">
+                            <img src="assets/images/conferencier_4.jpg" alt="conferencier4" />
+                            <div class="hidden">
+                                <h4>Rebecca Paris</h4>
+                                <p>Photographe</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article data-scrolly="scaleX">
+                        <a href="conferencier.html">
+                            <img src="assets/images/conferencier_5.jpg" alt="conferencier5" />
+                            <div class="hidden">
+                                <h4>Jessika Babeux-Hurst</h4>
+                                <p>Intégratrice multimedia</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article data-scrolly="scaleUp">
+                        <a href="conferencier.html">
+                            <img src="assets/images/conferencier_6.jpg" alt="conferencier6" />
+                            <div class="hidden">
+                                <h4>Raymond Thilbeault</h4>
+                                <p>Designer sonore</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="section-footer">
+            <div class="wrapper">
+                <nav class="nav-footer">
+                    <h2 class="logo">timConf</h2>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Forfaits</a></li>
+                        <li><a href="#">Évenements</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Conférence</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <p>© 2024 TimConf. Tous droits réservés</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><img src="assets/images/facebook.svg" alt="" /></a>
+                    <a href="https://www.twitter.com/"><img src="assets/images/twitter.svg" alt="" /></a>
+                    <a href="https://www.youtube.com/"><img src="assets/images/youtube.svg" alt="" /></a>
+                    <a href="https://www.instagram.com/"><img src="assets/images/instagram.svg" alt="" /></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
